@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #242424;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    background-color: #000000;
+    float: left;
+}
+
+header div{
+    width: 100%;
+    float: left;
+}
+
+#titulo{
+    padding-top: 10px;
+    background-color: #000000;
+}
+
+#titulo h1{
+    background-color: #000000;
+    font-size: 40px;
+    color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+
+nav{
+    width: 100%;
+    height: 30px;
+    background-color: #1C1C1C;
+    float: left;
+    padding: 15px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 5px;
+    background-color: #1C1C1C;
+}
+
+nav ul li{
+    display: inline;
+    background-color: #1C1C1C;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+    color: #fff;
+    background-color: #1C1C1C;
+    padding: 20px;
+}
+
+nav ul li a:hover{
+    background-color: 	#afafaf;
+}
+
+div{
+    float:left;
+    display: block;
+    margin: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 400px;
+    margin: 1%;
+}
+
+h2{
+    color: #fff;
+    margin-left: 3%;
+}
+
+p{
+    color: #fff;
+    margin-left: 4%;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: #131313;
+    padding: 15px;
+}
+
+footer .final{
+    text-align: center;
+    background-color: #131313;
+    color: rgb(255, 255, 255);
+}
